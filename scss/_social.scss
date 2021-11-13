@@ -1,0 +1,36 @@
+.social {
+    width: 80%;
+    margin: 0.5rem auto;
+    height: 50px;
+
+    &__logo {
+        float: left;
+    }
+
+    &__text {
+        font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 50px;
+    float: left;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.socialText a {
+    color: white;
+    text-decoration: none;
+}
+
+.socialText a:hover {
+  color: white;
+  text-decoration: underline;
+}
